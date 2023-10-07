@@ -13,21 +13,92 @@ Requires PHP: 7.4
 Tested up to: 6.3
 */
 
-body { 
-	-moz-osx-font-smoothing: grayscale; 
-	-webkit-font-smoothing: antialiased; 
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 }
 
-a { 
-	text-decoration-thickness: 0.0625em; 
+a {
+	text-decoration-thickness: 0.0625em;
 	text-underline-offset: 0.15em;
 }
 
-@media ( min-width: 782px ) { 
-	:root:not(.editor-styles-wrapper) .site-header { display: none !important; } 
+@media (min-width: 782px) {
+	:root:not(.editor-styles-wrapper) .site-header {
+		display: none !important;
+	}
 }
 
-@media ( max-width: 781px ) { 
-	:root:not(.editor-styles-wrapper) .site-header-desktop { display: none !important; } 
-	:root:not(.editor-styles-wrapper) .site-sidebar-col { display: none !important; } 
+@media (max-width: 781px) {
+	:root:not(.editor-styles-wrapper) .site-header-desktop {
+		display: none !important;
+	}
+
+	:root:not(.editor-styles-wrapper) .site-sidebar-col {
+		display: none !important;
+	}
+}
+
+
+.wp-block-comments {
+	display: flex; 
+	flex-direction: column; 
+	gap: var(--wp--preset--spacing--60); 
+}
+
+.comment-form > * {
+	margin: 0 0 var(--wp--preset--spacing--40);
+}
+
+.comment-respond {
+	border-radius: var(--wp--custom--border-radius--large);
+}
+
+.comment-respond .comment-reply-title {
+	margin: 0 0 var(--wp--preset--spacing--60);
+}
+
+.comment-notes {
+	display: none;
+}
+
+.comment-respond textarea,
+.comment-respond input:not([type=submit]) {
+	background-color: var(--wp--preset--color--0);
+	border: none;
+	border-radius: var(--wp--custom--border-radius--tiny);
+}
+
+.comment-form-comment label {
+	display: block;
+	margin: 0 0 .25em;
+}
+
+.comment-form > .form-submit {
+	margin-bottom: 0;
+}
+
+@media ( min-width: 1200px ) {
+
+	.comment-form-comment {
+		float: left;
+		margin-right: var(--wp--preset--spacing--50);
+		width: calc(66.66% - ( var(--wp--preset--spacing--50) / 2))
+	}
+
+	.comment-form-comment textarea {
+		height: 14.8em;
+	}
+
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+		float: left;
+		width: calc(33.33% - (var(--wp--preset--spacing--50) / 2))
+	}
+
+	.comment-form > *:not(.comment-form-comment):not(.comment-form-author):not(.comment-form-email):not(.comment-form-url) {
+		clear: both;
+	}
+
 }

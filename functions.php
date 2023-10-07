@@ -26,11 +26,46 @@ add_action( 'wp_enqueue_scripts', 'hideo_styles' );
 
 if ( ! function_exists( 'hideo_block_styles' ) ) :
 	function hideo_block_styles() {
+
+		register_block_style(
+			'core/post-terms',
+			array(
+				'name'         => 'pill-shape-with-border',
+				'label'        => __( 'Pill Shape With Border', 'hideo' ),
+				'inline_style' => "
+				.wp-block-post-terms.is-style-pill-shape-with-border {
+					display: flex;
+					flex-wrap: wrap;
+					gap: .75em;
+				}
+				.wp-block-post-terms.is-style-pill-shape-with-border a {
+					border: 1px solid var( --wp--preset--color--30 ) !important;
+					border-radius: 999px;
+					padding: .44em 1em;
+				}
+				.is-style-pill-shape-with-border .wp-block-post-terms__separator {
+					display: none;
+				}",
+			)
+		);
+
+		register_block_style(
+			'core/post-date',
+			array(
+				'name'         => 'pill-shape',
+				'label'        => __( 'Pill Shape', 'hideo' ),
+				'inline_style' => "
+				.wp-block-post-date.is-style-pill-shape {
+					border-radius: 99px;
+				}",
+			)
+		);
+
 		register_block_style(
 			'core/social-links',
 			array(
 				'name'         => 'pill-shape-with-border',
-				'label'        => __( 'Pill shape with border', 'hideo' ),
+				'label'        => __( 'Pill Shape With Border', 'hideo' ),
 				'inline_style' => "
 				:root .is-style-pill-shape-with-border .wp-block-social-link-anchor {
 					border: 1px solid var( --wp--preset--color--30 ) !important;
@@ -39,6 +74,7 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 				}",
 			)
 		);
+		
 	}
 endif;
 add_action( 'init', 'hideo_block_styles' );
