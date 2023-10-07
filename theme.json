@@ -422,10 +422,11 @@
 			},
 			"core/code": {
 				"border": {
-					"color": "var(--wp--preset--color--contrast)",
-					"radius": "0.25rem",
-					"style": "solid",
-					"width": "2px"
+					"radius": "var(--wp--custom--border-radius--large)",
+					"width": "0"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--30)"
 				},
 				"spacing": {
 					"padding": {
@@ -440,18 +441,12 @@
 				}
 			},
 			"core/comment-author-name": {
-				"color": {
-					"text": "var(--wp--preset--color--contrast)"
-				},
 				"elements": {
 					"link": {
 						":hover": {
 							"typography": {
 								"textDecoration": "underline"
 							}
-						},
-						"color": {
-							"text": "var(--wp--preset--color--contrast)"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -710,9 +705,6 @@
 			"core/quote": {
 				"border": {
 					"radius": "var(--wp--preset--spacing--20)"
-				},
-				"color": {
-					"background": "var(--wp--preset--color--base-2)"
 				},
 				"css": "& :where(p) {margin-block-start:0;margin-block-end:calc(var(--wp--preset--spacing--10) + 0.5rem);}",
 				"elements": {
