@@ -13,5 +13,15 @@ Requires PHP: 7.4
 Tested up to: 6.3
 */
 
+body { 
+	-moz-osx-font-smoothing: grayscale; 
+	-webkit-font-smoothing: antialiased; 
+}
+
+a { 
+	text-decoration-thickness: 0.0625em; 
+	text-underline-offset: 0.15em;
+}
+
 @media ( min-width: 782px ) { :root:not(.editor-styles-wrapper) .site-header { display: none !important; } }
 @media ( max-width: 781px ) { :root:not(.editor-styles-wrapper) .site-sidebar-col { display: none !important; } }

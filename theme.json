@@ -99,7 +99,7 @@
 		},
 		"layout": {
 			"contentSize": "554px",
-			"wideSize": "1280px"
+			"wideSize": "1920px"
 		},
 		"spacing": {
 			"spacingScale": {
@@ -818,7 +818,7 @@
 			"background": "var(--wp--preset--color--10)",
 			"text": "var(--wp--preset--color--100)"
 		},
-		"css": "body{ -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; } a { text-decoration-thickness:0.0625em; text-underline-offset: 0.15em }",
+		"css": "",
 		"elements": {
 			"button": {
 				"typography": {
