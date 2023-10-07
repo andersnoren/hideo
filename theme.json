@@ -698,6 +698,15 @@
 					"lineHeight": "1.5"
 				}
 			},
+			"core/query-pagination": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
 			"core/quote": {
 				"border": {
 					"radius": "var(--wp--preset--spacing--20)"

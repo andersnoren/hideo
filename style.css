@@ -39,6 +39,41 @@ a {
 	}
 }
 
+/* BLOCK: QUERY PAGINATION */
+
+:root .wp-block-query-pagination > * {
+	margin: 0;
+}
+
+.wp-block-query-pagination,
+.wp-block-query-pagination-numbers {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .66em;
+}
+
+.wp-block-query-pagination > a,
+.wp-block-query-pagination-numbers > * { 
+	align-items: center;
+	border: 1px solid var( --wp--preset--color--30 );
+	border-radius: 50%;
+	display: flex;
+	height: 2em;
+	justify-content: center;
+	margin: 0;
+	width: 2em;
+}
+
+.wp-block-query-pagination a:hover,
+.wp-block-query-pagination-numbers .current {
+	background: var( --wp--preset--color--30 );
+}
+
+.wp-block-query-pagination [class*="is-arrow-"]:only-child {
+	margin: 0;
+}
+
+/* BLOCK: COMMENTS */
 
 .wp-block-comments {
 	display: flex; 
