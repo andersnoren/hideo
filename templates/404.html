@@ -11,17 +11,20 @@
 <!-- wp:column {"width":"77%","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column" style="flex-basis:77%"><!-- wp:template-part {"slug":"header-desktop"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"inherit":true,"type":"constrained"}} -->
-<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">Error 404</h1>
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|90"},"dimensions":{"minHeight":"75vh"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
+<main class="wp-block-group" style="min-height:75vh;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Page Not Found</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size">It seems like we couldn’t find the page you’re looking for. You can
-					search for it in the form below.</p>
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"420px"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>The page you’re looking for could not be found. Return home or try the search form below.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search...","width":500,"widthUnit":"px","buttonText":"Search","borderColor":"tertiary"} /--></main>
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"320px","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search...","width":100,"widthUnit":"%","buttonText":"Search","buttonUseIcon":true,"borderColor":"tertiary"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /--></div>
