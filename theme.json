@@ -637,6 +637,20 @@
 					"radius": "var(--wp--custom--border-radius--large)"
 				}
 			},
+			"core/post-navigation-link": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
 			"core/post-terms": {
 				"elements": {
 					"link": {

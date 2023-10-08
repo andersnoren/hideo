@@ -19,7 +19,7 @@ body {
 }
 
 a {
-	text-decoration-thickness: 0.0625em;
+	text-decoration-thickness: 1px;
 	text-underline-offset: 0.15em;
 }
 
@@ -38,6 +38,10 @@ a {
 		display: none !important;
 	}
 }
+
+/* HELPER CLASSES */
+
+.hide-empty:empty { display: none !important; }
 
 /* BLOCK: QUERY PAGINATION */
 
