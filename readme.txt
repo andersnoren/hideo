@@ -36,7 +36,7 @@ License: Public Domain
 
 === Images in screenshot.jpg ===
 
-Top left
+Bottom right
 Author: Marina Koleva
 License: CC0, https://creativecommons.org/public-domain/cc0/
 Source: https://wordpress.org/photos/photo/858642d54a/
@@ -46,12 +46,12 @@ Author: Pawel Madeja
 License: CC0, https://creativecommons.org/public-domain/cc0/
 Source: https://wordpress.org/photos/photo/738645e364/
 
-Bottom left
+Top left
 Author: annezazu
 License: CC0, https://creativecommons.org/public-domain/cc0/
 Source: https://wordpress.org/photos/photo/8216520a44/
 
-Bottom right
+Bottom left
 Author: Marina Koleva
 License: CC0, https://creativecommons.org/public-domain/cc0/
 Source: https://wordpress.org/photos/photo/654642d52f/
