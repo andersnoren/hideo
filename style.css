@@ -49,6 +49,20 @@ a {
 	border-radius: var( --wp--custom--border-radius--tiny );
 }
 
+/* BLOCK: CATEGORIES LIST */
+
+.wp-block-categories .current-cat a {
+	text-decoration: underline;
+}
+
+.wp-block-categories .count {
+	font-size: .66em;
+	font-weight: 800;
+	letter-spacing: -0.05em;
+	margin-left: .2em;
+	vertical-align: super;
+}
+
 /* BLOCK: QUERY PAGINATION */
 
 :root .wp-block-query-pagination > * {

@@ -234,6 +234,24 @@
 							"src": [
 								"file:./assets/fonts/open-sauce-two/open-sauce-two-700-italic.woff2"
 							]
+						},
+						{
+							"fontFamily": "Open Sauce Two",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sauce-two/open-sauce-two-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Open Sauce Two",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sauce-two/open-sauce-two-800-italic.woff2"
+							]
 						}
 					],
 					"fontFamily": "\"Open Sauce Two\", ui-sans-serif, sans-serif",
@@ -833,7 +851,7 @@
 			"background": "var(--wp--preset--color--10)",
 			"text": "var(--wp--preset--color--100)"
 		},
-		"css": "",
+		"css": ".SEARCH-FOR-ME { color: red; }",
 		"elements": {
 			"button": {
 				"border": {

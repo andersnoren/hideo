@@ -78,3 +78,27 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 	}
 endif;
 add_action( 'init', 'hideo_block_styles' );
+
+
+/*	-----------------------------------------------------------------------------------------------
+	MODIFY wp_list_categories() MARKUP
+
+	In the output, wrap the category count in a span element so it can be styled separately.
+--------------------------------------------------------------------------------------------------- */
+
+if ( ! function_exists( 'hideo_modify_wp_list_categories_markup' ) ) :
+	function hideo_modify_wp_list_categories_markup( $output, $args ) {
+
+		if ( $args['show_count'] === true ) {
+			$output = str_replace(
+				array( '</a> (', ')' ), 
+				array( '</a><span class="count">', '</span>' ),
+				$output
+			);
+		}
+
+		return $output;
+
+	}
+endif;
+add_filter( 'wp_list_categories', 'hideo_modify_wp_list_categories_markup', 10, 2 );
