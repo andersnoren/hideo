@@ -200,6 +200,31 @@
 				{
 					"fontFace": [
 						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/inter/inter-roman.var.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/inter/inter-italic.var.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Inter\", ui-sans-serif, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
 							"fontFamily": "Open Sauce Two",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -254,7 +279,7 @@
 							]
 						}
 					],
-					"fontFamily": "\"Open Sauce Two\", ui-sans-serif, sans-serif",
+					"fontFamily": "Inter, \"Open Sauce Two\", ui-sans-serif, sans-serif",
 					"name": "Open Sauce Two",
 					"slug": "open-sauce-two"
 				},
@@ -851,7 +876,7 @@
 			"background": "var(--wp--preset--color--10)",
 			"text": "var(--wp--preset--color--100)"
 		},
-		"css": ".SEARCH-FOR-ME { color: red; }",
+		"css": "",
 		"elements": {
 			"button": {
 				"border": {
@@ -931,10 +956,11 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--open-sauce-two)",
+			"fontFamily": "var(--wp--preset--font-family--inter)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
-			"fontWeight": "400",
+			"fontWeight": "500",
+			"letterSpacing": "-0.0075em",
 			"lineHeight": "1.5"
 		}
 	},
