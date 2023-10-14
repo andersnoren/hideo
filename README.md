@@ -2,7 +2,7 @@
 
 Hideo is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with 5 different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts.
 
-![Hideo](https://github.com/andersnoren/hideo/blob/main/screenshot.jpg)
+![Hideo](https://github.com/andersnoren/hideo/blob/main/screenshot.png)
 
 You can download the latest stable release of Hideo [from WordPress.org](https://wordpress.org/themes/hideo/).
 
