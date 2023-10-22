@@ -370,7 +370,7 @@
 				}
 			},
 			"core/categories": {
-				"css": "& {list-style-type:none;} & li{margin-bottom: 0.5rem;}",
+				"css": "",
 				"elements": {
 					"link": {
 						":hover": {
@@ -532,6 +532,12 @@
 			"core/image": {
 				"border": {
 					"radius": "var(--wp--custom--border--radius--large)"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--70)",
+						"top": "var(--wp--preset--spacing--70)"
+					}
 				}
 			},
 			"core/list": {

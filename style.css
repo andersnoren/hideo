@@ -51,7 +51,21 @@ a {
 
 /* BLOCK: CATEGORIES LIST */
 
-.wp-block-categories .current-cat a {
+.wp-block-categories,
+.wp-block-categories ul {
+	list-style-type: none;
+}
+
+.wp-block-categories ul {
+	margin-top: .5em;
+	padding-left: 1.5em;
+}
+
+.wp-block-categories li {
+	margin-bottom: .5em;
+}
+
+.wp-block-categories .current-cat > a {
 	text-decoration: underline;
 }
 
