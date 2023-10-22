@@ -43,6 +43,13 @@ a {
 
 .hide-empty:empty { display: none !important; }
 
+/* BLOCK: AVATAR */
+
+.wp-block-avatar img {
+	height: auto;
+	max-width: 100%;
+}
+
 /* BLOCK: CATEGORIES */
 
 .wp-block-categories,
@@ -164,6 +171,12 @@ a {
 
 .is-style-desaturated {
 	mix-blend-mode: luminosity;
+}
+
+/* BLOCK: SOCIAL LINKS */
+
+.wp-block-social-links .wp-social-link a {
+	padding: .33em;
 }
 
 /* BLOCK: QUERY PAGINATION */

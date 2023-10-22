@@ -45,6 +45,24 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 		}
 
 		register_block_style(
+			'core/column',
+			array(
+				'name'         => 'aspect-ratio-1-1',
+				'label'        => __( '1:1 Aspect Ratio', 'hideo' ),
+				'inline_style' => ".is-style-aspect-ratio-1-1 { aspect-ratio: 1/1; }",
+			)
+		);
+
+		register_block_style(
+			'core/column',
+			array(
+				'name'         => 'aspect-ratio-4-3',
+				'label'        => __( '4:3 Aspect Ratio', 'hideo' ),
+				'inline_style' => ".is-style-aspect-ratio-4-3 { aspect-ratio: 4/3; }",
+			)
+		);
+
+		register_block_style(
 			'core/post-terms',
 			array(
 				'name'         => 'pill-shape-with-border',
