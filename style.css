@@ -144,8 +144,8 @@ a {
 
 	.comment-form-comment {
 		float: left;
-		margin-right: var(--wp--preset--spacing--50);
-		width: calc(66.66% - ( var(--wp--preset--spacing--50) / 2))
+		margin-right: var(--wp--preset--spacing--body-margin);
+		width: calc(66.66% - ( var(--wp--preset--spacing--body-margin) / 2))
 	}
 
 	.comment-form-comment textarea {
@@ -156,19 +156,13 @@ a {
 	.comment-form-email,
 	.comment-form-url {
 		float: left;
-		width: calc(33.33% - (var(--wp--preset--spacing--50) / 2))
+		width: calc(33.33% - (var(--wp--preset--spacing--body-margin) / 2))
 	}
 
 	.comment-form > *:not(.comment-form-comment):not(.comment-form-author):not(.comment-form-email):not(.comment-form-url) {
 		clear: both;
 	}
 
-}
-
-/* BLOCK: NAVIGATION */
-
-.wp-block-navigation__responsive-container.is-menu-open {
-	padding: var(--wp--preset--spacing--50);
 }
 
 /* BLOCK: PARAGRAPH */

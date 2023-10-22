@@ -364,8 +364,8 @@
 				"spacing": {
 					"blockGap": ".888em",
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--50)",
-						"top": "var(--wp--preset--spacing--50)"
+						"bottom": "var(--wp--preset--spacing--body-margin)",
+						"top": "var(--wp--preset--spacing--body-margin)"
 					}
 				}
 			},
@@ -400,10 +400,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--50)",
-						"left": "var(--wp--preset--spacing--50)",
-						"right": "var(--wp--preset--spacing--50)",
-						"top": "var(--wp--preset--spacing--50)"
+						"bottom": "var(--wp--preset--spacing--body-margin)",
+						"left": "var(--wp--preset--spacing--body-margin)",
+						"right": "var(--wp--preset--spacing--body-margin)",
+						"top": "var(--wp--preset--spacing--body-margin)"
 					}
 				},
 				"typography": {
@@ -516,15 +516,16 @@
 			"core/gallery": {
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--50)"
+						"bottom": "var(--wp--preset--spacing--body-margin)",
+						"top": "var(--wp--preset--spacing--body-margin)"
 					}
 				}
 			},
 			"core/group": {
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--50)",
-						"top": "var(--wp--preset--spacing--50)"
+						"bottom": "var(--wp--preset--spacing--body-margin)",
+						"top": "var(--wp--preset--spacing--body-margin)"
 					}
 				}
 			},
@@ -896,8 +897,8 @@
 			"blockGap": "1.2rem",
 			"padding": {
 				"bottom": "0",
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)",
+				"left": "var(--wp--preset--spacing--body-margin)",
+				"right": "var(--wp--preset--spacing--body-margin)",
 				"top": "0"
 			}
 		},
