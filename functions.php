@@ -27,6 +27,23 @@ add_action( 'wp_enqueue_scripts', 'hideo_styles' );
 if ( ! function_exists( 'hideo_block_styles' ) ) :
 	function hideo_block_styles() {
 
+		$desatured_style_blocks = array( 
+			'core/avatar', 
+			'core/image',
+			'core/post-featured-image' 
+		);
+
+		foreach ( $desatured_style_blocks as $block_name ) {
+			register_block_style(
+				$block_name,
+				array(
+					'name'         => 'desaturated',
+					'label'        => __( 'Desaturated', 'hideo' ),
+					'inline_style' => "",
+				)
+			);
+		}
+
 		register_block_style(
 			'core/post-terms',
 			array(
@@ -62,10 +79,19 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 		);
 
 		register_block_style(
+			'core/quote',
+			array(
+				'name'         => 'has-quotation-mark',
+				'label'        => __( 'Quotation Mark', 'hideo' ),
+				'inline_style' => "",
+			)
+		);
+
+		register_block_style(
 			'core/social-links',
 			array(
 				'name'         => 'pill-shape-with-border',
-				'label'        => __( 'Pill Shape With Border', 'hideo' ),
+				'label'        => __( 'Default With Border', 'hideo' ),
 				'inline_style' => "
 				:root .is-style-pill-shape-with-border .wp-block-social-link-anchor {
 					border: 1px solid var( --wp--preset--color--30 ) !important;
