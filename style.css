@@ -170,3 +170,13 @@ a {
 .wp-block-navigation__responsive-container.is-menu-open {
 	padding: var(--wp--preset--spacing--50);
 }
+
+/* BLOCK: PARAGRAPH */
+
+.has-drop-cap:not(:focus)::first-letter {
+	font-family: var( --wp--custom--drop-cap--typography--font-family, var(--wp--preset--font-family--heading) );
+	font-size: var( --wp--custom--drop-cap--typography--font-size, 7.3em );
+	font-weight: var( --wp--custom--drop-cap--typography--font-weight, 400 );
+	line-height: var( --wp--custom--drop-cap--typography--line-height, .75 );
+	margin: var( --wp--custom--drop-cap--spacing--margin, .06em .1em 0 0 );
+}

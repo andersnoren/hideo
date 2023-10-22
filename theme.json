@@ -97,6 +97,11 @@
 					"name": "9",
 					"size": "clamp(96px, 16.666vw, 128px)",
 					"slug": "90"
+				},
+				{
+					"name": "Body Margin",
+					"size": "clamp(24px, 4.166vw, 32px)",
+					"slug": "body-margin"
 				}
 			],
 			"units": [
@@ -135,32 +140,7 @@
 					],
 					"fontFamily": "\"Instrument Serif\", ui-serif, serif",
 					"name": "Instrument Serif",
-					"slug": "instrument-serif"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Inter",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/inter/inter-roman.var.woff2"
-							]
-						},
-						{
-							"fontFamily": "Inter",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/inter/inter-italic.var.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Inter\", ui-sans-serif, sans-serif",
-					"name": "Inter",
-					"slug": "inter"
+					"slug": "heading"
 				},
 				{
 					"fontFace": [
@@ -221,7 +201,7 @@
 					],
 					"fontFamily": "\"Open Sauce Two\", ui-sans-serif, sans-serif",
 					"name": "Open Sauce Two",
-					"slug": "open-sauce-two"
+					"slug": "body"
 				},
 				{
 					"fontFamily": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
@@ -309,7 +289,7 @@
 						"min": "48px"
 					},
 					"name": "Heading 3",
-					"size": "56px",
+					"size": "80px",
 					"slug": "heading-3"
 				},
 				{
@@ -318,7 +298,7 @@
 						"min": "40px"
 					},
 					"name": "Heading 4",
-					"size": "48px",
+					"size": "64px",
 					"slug": "heading-4"
 				},
 				{
@@ -327,7 +307,7 @@
 						"min": "32px"
 					},
 					"name": "Heading 5",
-					"size": "32.0px",
+					"size": "48.0px",
 					"slug": "heading-5"
 				},
 				{
@@ -336,7 +316,7 @@
 						"min": "24px"
 					},
 					"name": "Heading 6",
-					"size": "24px",
+					"size": "32.0px",
 					"slug": "heading-6"
 				}
 			]
@@ -382,7 +362,11 @@
 			},
 			"core/buttons": {
 				"spacing": {
-					"blockGap": ".888em"
+					"blockGap": ".888em",
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--50)",
+						"top": "var(--wp--preset--spacing--50)"
+					}
 				}
 			},
 			"core/categories": {
@@ -533,6 +517,14 @@
 				"spacing": {
 					"margin": {
 						"bottom": "var(--wp--preset--spacing--50)"
+					}
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--50)",
+						"top": "var(--wp--preset--spacing--50)"
 					}
 				}
 			},
@@ -722,7 +714,6 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontStyle": "normal",
 					"lineHeight": "1.3"
@@ -753,7 +744,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& input { border: none; border-radius:var(--wp--custom--border--radius--tiny); font: inherit; font-size: var(--wp--preset--font-size--small); padding: var(--wp--custom--input--padding); }",
+				"css": "& input { border: none; border-radius:var(--wp--custom--border--radius--tiny); font: inherit; font-size: var(--wp--preset--font-size--small); padding: var(--wp--custom--input--padding); } & ::placeholder { color: var( --wp--preset--color--70 ) }",
 				"elements": {
 					"button": {
 						"border": {
@@ -783,7 +774,7 @@
 					"width": "0 0 1px 0"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--30)"
+					"text": "var(--wp--preset--color--100)"
 				},
 				"css": " &:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: var(--wp--preset--spacing--90)}",
 				"spacing": {
@@ -833,6 +824,12 @@
 				"color": {
 					"text": "var(--wp--preset--color--70)"
 				},
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": ".5em"
+					}
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
@@ -872,8 +869,14 @@
 				}
 			},
 			"heading": {
+				"spacing": {
+					"margin": {
+						"bottom": ".33em",
+						"top": ".66em"
+					}
+				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--instrument-serif)",
+					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontWeight": "400",
 					"lineHeight": "1"
 				}
@@ -893,17 +896,16 @@
 			"blockGap": "1.2rem",
 			"padding": {
 				"bottom": "0",
-				"left": "0",
-				"right": "0",
+				"left": "var(--wp--preset--spacing--50)",
+				"right": "var(--wp--preset--spacing--50)",
 				"top": "0"
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--open-sauce-two)",
+			"fontFamily": "var(--wp--preset--font-family--body)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
 			"fontWeight": "500",
-			"letterSpacing": "-0.0075em",
 			"lineHeight": "1.5"
 		}
 	},
