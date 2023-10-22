@@ -125,6 +125,54 @@ add_action( 'init', 'hideo_block_styles' );
 
 
 /*	-----------------------------------------------------------------------------------------------
+	BLOCK PATTERNS
+	Register theme specific block pattern categories. The patterns themselves are stored in /patterns/.
+--------------------------------------------------------------------------------------------------- */
+
+if ( ! function_exists( 'hideo_register_block_patterns' ) ) :
+	function hideo_register_block_patterns() {
+
+		// The block pattern categories included in Hideo.
+		$hideo_block_pattern_categories = apply_filters( 'hideo_block_pattern_categories', array(
+			'hideo'  => array(
+				'label'			=> esc_html__( 'Hideo - All', 'hideo' ),
+			),
+			'hideo-blog'  => array(
+				'label'			=> esc_html__( 'Hideo - Blog', 'hideo' ),
+			),
+			'hideo-cta'  => array(
+				'label'			=> esc_html__( 'Hideo - Call to Action', 'hideo' ),
+			),
+			'hideo-general' => array(
+				'label'			=> esc_html__( 'Hideo - General', 'hideo' ),
+			),
+			'hideo-hero' => array(
+				'label'			=> esc_html__( 'Hideo - Hero', 'hideo' ),
+			),
+			'hideo-media' => array(
+				'label'			=> esc_html__( 'Hideo - Media', 'hideo' ),
+			),
+			'hideo-page' => array(
+				'label'			=> esc_html__( 'Hideo - Page Layouts', 'hideo' ),
+			),
+		) );
+
+		// Sort the block pattern categories alphabetically based on the label value, to ensure alphabetized order when the strings are localized.
+		uasort( $hideo_block_pattern_categories, function( $a, $b ) { 
+			return strcmp( $a["label"], $b["label"] ); }
+		);
+
+		// Register block pattern categories.
+		foreach ( $hideo_block_pattern_categories as $slug => $settings ) {
+			register_block_pattern_category( $slug, $settings );
+		}
+
+	}
+endif;
+add_action( 'init', 'hideo_register_block_patterns' );
+
+
+/*	-----------------------------------------------------------------------------------------------
 	MODIFY wp_list_categories() MARKUP
 
 	In the output, wrap the category count in a span element so it can be styled separately.

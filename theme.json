@@ -558,13 +558,6 @@
 					}
 				}
 			},
-			"core/list": {
-				"spacing": {
-					"padding": {
-						"left": "var(--wp--preset--spacing--10)"
-					}
-				}
-			},
 			"core/loginout": {
 				"css": "& input { background-color: var( --wp--preset--color--0 ); border: none; border-radius: var( --wp--custom--border--radius--tiny ); font: inherit; font-size: var(--wp--preset--font-size--small); padding: var(--wp--custom--input--padding); }"
 			},
