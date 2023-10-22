@@ -5,68 +5,6 @@
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
-			"gradients": [
-				{
-					"gradient": "linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%)",
-					"name": "Vertical soft beige to white",
-					"slug": "gradient-1"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%)",
-					"name": "Vertical soft sandstone to white",
-					"slug": "gradient-2"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #D8613C 0%, #F9F9F9 100%)",
-					"name": "Vertical soft rust to white",
-					"slug": "gradient-3"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #B1C5A4 0%, #F9F9F9 100%)",
-					"name": "Vertical soft sage to white",
-					"slug": "gradient-4"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #B5BDBC 0%, #F9F9F9 100%)",
-					"name": "Vertical soft mint to white",
-					"slug": "gradient-5"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #A4A4A4 0%, #F9F9F9 100%)",
-					"name": "Vertical soft pewter to white",
-					"slug": "gradient-6"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #cfcabe 50%, #F9F9F9 50%)",
-					"name": "Vertical hard beige to white",
-					"slug": "gradient-7"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #C2A990 50%, #F9F9F9 50%)",
-					"name": "Vertical hard sandstone to white",
-					"slug": "gradient-8"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #D8613C 50%, #F9F9F9 50%)",
-					"name": "Vertical hard rust to white",
-					"slug": "gradient-9"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #B1C5A4 50%, #F9F9F9 50%)",
-					"name": "Vertical hard sage to white",
-					"slug": "gradient-10"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #B5BDBC 50%, #F9F9F9 50%)",
-					"name": "Vertical hard mint to white",
-					"slug": "gradient-11"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%)",
-					"name": "Vertical hard pewter to white",
-					"slug": "gradient-12"
-				}
-			],
 			"palette": [
 				{
 					"color": "#FFFFFF",
@@ -96,9 +34,11 @@
 			]
 		},
 		"custom": {
-			"border-radius": {
-				"large": "clamp(12px, 3.125vw, 24px)",
-				"tiny": "4px"
+			"border": {
+				"radius": {
+					"large": "clamp(12px, 3.125vw, 24px)",
+					"tiny": "4px"
+				}
 			},
 			"input": {
 				"padding": ".75em 1em"
@@ -279,7 +219,7 @@
 							]
 						}
 					],
-					"fontFamily": "Inter, \"Open Sauce Two\", ui-sans-serif, sans-serif",
+					"fontFamily": "\"Open Sauce Two\", ui-sans-serif, sans-serif",
 					"name": "Open Sauce Two",
 					"slug": "open-sauce-two"
 				},
@@ -468,7 +408,7 @@
 			},
 			"core/code": {
 				"border": {
-					"radius": "var(--wp--custom--border-radius--large)",
+					"radius": "var(--wp--custom--border--radius--large)",
 					"width": "0"
 				},
 				"color": {
@@ -598,7 +538,7 @@
 			},
 			"core/image": {
 				"border": {
-					"radius": "var(--wp--custom--border-radius--large)"
+					"radius": "var(--wp--custom--border--radius--large)"
 				}
 			},
 			"core/list": {
@@ -609,7 +549,7 @@
 				}
 			},
 			"core/loginout": {
-				"css": "& input { background-color: var( --wp--preset--color--0 ); border: none; border-radius: var( --wp--custom--border-radius--tiny ); font: inherit; font-size: var(--wp--preset--font-size--small); padding: var(--wp--custom--input--padding); }"
+				"css": "& input { background-color: var( --wp--preset--color--0 ); border: none; border-radius: var( --wp--custom--border--radius--tiny ); font: inherit; font-size: var(--wp--preset--font-size--small); padding: var(--wp--custom--input--padding); }"
 			},
 			"core/navigation": {
 				"elements": {
@@ -680,7 +620,7 @@
 			},
 			"core/post-featured-image": {
 				"border": {
-					"radius": "var(--wp--custom--border-radius--large)"
+					"radius": "var(--wp--custom--border--radius--large)"
 				}
 			},
 			"core/post-navigation-link": {
@@ -727,12 +667,11 @@
 			},
 			"core/pullquote": {
 				"border": {
-					"radius": "var(--wp--preset--spacing--20)"
+					"radius": "var(--wp--custom--border--radius--large)"
 				},
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontFamily": "var(--wp--preset--font-family--body)",
 							"fontSize": "var(--wp--preset--font-size--medium)",
 							"fontStyle": "normal"
 						}
@@ -745,11 +684,9 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--heading)",
-					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontSize": "var(--wp--preset--font-size--huge)",
 					"fontStyle": "normal",
-					"fontWeight": "400",
-					"letterSpacing": "0",
+					"fontWeight": "500",
 					"lineHeight": "1.5"
 				}
 			},
@@ -816,7 +753,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& input { border: none; border-radius:var(--wp--custom--border-radius--tiny); font: inherit; font-size: var(--wp--preset--font-size--small); padding: var(--wp--custom--input--padding); }",
+				"css": "& input { border: none; border-radius:var(--wp--custom--border--radius--tiny); font: inherit; font-size: var(--wp--preset--font-size--small); padding: var(--wp--custom--input--padding); }",
 				"elements": {
 					"button": {
 						"border": {
@@ -846,9 +783,15 @@
 					"width": "0 0 1px 0"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "var(--wp--preset--color--30)"
 				},
-				"css": " &:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: var(--wp--preset--spacing--60)}"
+				"css": " &:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: var(--wp--preset--spacing--90)}",
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--60)",
+						"top": "var(--wp--preset--spacing--60)"
+					}
+				}
 			},
 			"core/site-title": {
 				"elements": {
@@ -956,7 +899,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontFamily": "var(--wp--preset--font-family--open-sauce-two)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
 			"fontWeight": "500",
