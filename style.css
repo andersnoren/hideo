@@ -157,6 +157,12 @@ a {
 	padding: var(--wp--preset--spacing--body-margin);
 }
 
+/* BLOCK: NAVIGATION */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding: var(--wp--preset--spacing--body-margin);
+}
+
 /* BLOCK: PARAGRAPH */
 
 .has-drop-cap:not(:focus)::first-letter {
