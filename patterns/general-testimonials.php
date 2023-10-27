@@ -35,7 +35,7 @@
 				<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 					<!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full is-resized"><img
-							src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar.png" alt=""
+							src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar.png" alt=""
 							style="width:64px" /></figure>
 					<!-- /wp:image -->
 
@@ -80,7 +80,7 @@
 				<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 					<!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full is-resized"><img
-							src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar.png" alt=""
+							src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar.png" alt=""
 							style="width:64px" /></figure>
 					<!-- /wp:image -->
 
@@ -125,7 +125,7 @@
 				<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 					<!-- wp:image {"width":"64px","sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full is-resized"><img
-							src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar.png" alt=""
+							src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar.png" alt=""
 							style="width:64px" /></figure>
 					<!-- /wp:image -->
 

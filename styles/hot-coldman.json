@@ -1,0 +1,41 @@
+{
+    "title": "Hot Coldman",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"color": "#CB9DA2",
+					"name": "0",
+					"slug": "0"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "10",
+					"slug": "10"
+				},
+				{
+					"color": "#B78D92",
+					"name": "30",
+					"slug": "30"
+				},
+				{
+					"color": "#392C2D",
+					"name": "70",
+					"slug": "70"
+				},
+				{
+					"color": "#000000",
+					"name": "100",
+					"slug": "100"
+				}
+			]
+		}
+    },
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--0)"
+		}
+	}
+}

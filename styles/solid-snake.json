@@ -1,0 +1,36 @@
+{
+    "title": "Solid Snake",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"color": "#1B1B1B",
+					"name": "0",
+					"slug": "0"
+				},
+				{
+					"color": "#2B2B2B",
+					"name": "10",
+					"slug": "10"
+				},
+				{
+					"color": "#444444",
+					"name": "30",
+					"slug": "30"
+				},
+				{
+					"color": "#8C8C8C",
+					"name": "70",
+					"slug": "70"
+				},
+				{
+					"color": "#BDBDBD",
+					"name": "100",
+					"slug": "100"
+				}
+			]
+		}
+    }
+}

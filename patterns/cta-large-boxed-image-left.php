@@ -10,8 +10,8 @@
 <!-- wp:media-text {"align":"wide","mediaType":"image","imageFill":true,"backgroundColor":"30"} -->
 <div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill has-30-background-color has-background">
 	<figure class="wp-block-media-text__media"
-		style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png);background-position:50% 50%">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt="" />
+		style="background-image:url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png);background-position:50% 50%">
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" />
 	</figure>
 	<div class="wp-block-media-text__content">
 		<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"dimensions":{"minHeight":"50vh"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->

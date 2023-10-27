@@ -17,7 +17,7 @@
 			<div class="wp-block-column">
 				<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt=""
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt=""
 						style="aspect-ratio:4/3;object-fit:cover" />
 					<figcaption class="wp-element-caption">This is an image.</figcaption>
 				</figure>
@@ -41,7 +41,7 @@
 			<div class="wp-block-column">
 				<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt=""
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt=""
 						/>
 					<figcaption class="wp-element-caption">This is also an image.</figcaption>
 				</figure>
@@ -69,7 +69,7 @@
 			<div class="wp-block-column">
 				<!-- wp:image {"aspectRatio":"2/3","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt=""
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt=""
 						style="aspect-ratio:2/3;object-fit:cover" />
 					<figcaption class="wp-element-caption">This is also an image.</figcaption>
 				</figure>

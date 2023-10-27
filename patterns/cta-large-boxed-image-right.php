@@ -46,8 +46,8 @@
 		<!-- /wp:group -->
 	</div>
 	<figure class="wp-block-media-text__media"
-		style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png);background-position:50% 50%">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt="" />
+		style="background-image:url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png);background-position:50% 50%">
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" />
 	</figure>
 </div>
 <!-- /wp:media-text -->

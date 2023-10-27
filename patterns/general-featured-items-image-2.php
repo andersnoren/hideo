@@ -19,7 +19,7 @@
 			<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 				<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt=""
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt=""
 						style="aspect-ratio:4/3;object-fit:cover" /></figure>
 				<!-- /wp:image -->
 
@@ -65,7 +65,7 @@
 			<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 				<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 				<figure class="wp-block-image size-full"><img
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt=""
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt=""
 						style="aspect-ratio:4/3;object-fit:cover" /></figure>
 				<!-- /wp:image -->
 

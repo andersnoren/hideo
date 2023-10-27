@@ -888,7 +888,7 @@
 				},
 				"typography": {
 					"fontWeight": "700",
-					"letterSpacing": "0.01em",
+					"letterSpacing": "0.05em",
 					"textTransform": "uppercase"
 				}
 			},

@@ -18,7 +18,7 @@
 			<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 				<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":{"topLeft":"1em","topRight":"1em","bottomLeft":"0em","bottomRight":"0em"}}}} -->
 				<figure class="wp-block-image size-full has-custom-border"><img
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt=""
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt=""
 						style="border-top-left-radius:1em;border-top-right-radius:1em;border-bottom-left-radius:0em;border-bottom-right-radius:0em;aspect-ratio:4/3;object-fit:cover" />
 				</figure>
 				<!-- /wp:image -->
@@ -67,7 +67,7 @@
 			<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 				<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":{"topLeft":"1em","topRight":"1em","bottomLeft":"0em","bottomRight":"0em"}}}} -->
 				<figure class="wp-block-image size-full has-custom-border"><img
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/placeholder.png" alt=""
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt=""
 						style="border-top-left-radius:1em;border-top-right-radius:1em;border-bottom-left-radius:0em;border-bottom-right-radius:0em;aspect-ratio:4/3;object-fit:cover" />
 				</figure>
 				<!-- /wp:image -->
