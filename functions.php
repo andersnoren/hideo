@@ -201,9 +201,6 @@ if ( ! function_exists( 'hideo_register_block_patterns' ) ) :
 			'hideo-media' => array(
 				'label'			=> esc_html__( 'Hideo - Media', 'hideo' ),
 			),
-			'hideo-page' => array(
-				'label'			=> esc_html__( 'Hideo - Page Layouts', 'hideo' ),
-			),
 		) );
 
 		// Sort the block pattern categories alphabetically based on the label value, to ensure alphabetized order when the strings are localized.
