@@ -863,16 +863,16 @@
 		},
 		"elements": {
 			"button": {
+				":hover": {
+					"typography": {
+						"textDecoration": "underline"
+					}
+				},
 				"border": {
 					"radius": "99px"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
-				},
-				":hover": {
-					"typography": {
-						"textDecoration": "underline"
-					}
 				}
 			},
 			"caption": {
