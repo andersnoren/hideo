@@ -296,7 +296,7 @@ cite {
 .wp-block-pullquote blockquote:before {
 	content: "“";
 	display: block;
-	font-family: var(--wp--preset--font-family--body);
+	font-family: "Open Sauce Two", ui-sans-serif, sans-serif;
 	font-size: clamp( 80px, 3em, 128px );
 	line-height: .8;
 	margin-left: -.05em;

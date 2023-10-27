@@ -1,4 +1,17 @@
 {
+	"customTemplates": [
+		{
+			"name": "template-blank",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "template-no-title",
+			"postTypes": [
+				"page"
+			],
+			"title": "No Title"
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -882,13 +895,13 @@
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--heading-1)",
-					"letterSpacing": "-0.02em"
+					"letterSpacing": "-0.01em"
 				}
 			},
 			"h2": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--heading-2)",
-					"letterSpacing": "-0.02em"
+					"letterSpacing": "-0.01em"
 				}
 			},
 			"h3": {

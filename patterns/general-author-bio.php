@@ -26,7 +26,7 @@
 		<div class="wp-block-column has-medium-font-size" style="flex-basis:66.66%">
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"6vw"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:post-author-name {"isLink":true,"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"letterSpacing":"-0.02em","lineHeight":"1"}},"fontSize":"heading-2","fontFamily":"heading"} /-->
+				<!-- wp:post-author-name {"isLink":true,"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"letterSpacing":"-0.01em","lineHeight":"1"}},"fontSize":"heading-2","fontFamily":"heading"} /-->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 				<div class="wp-block-group">
