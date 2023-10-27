@@ -1,4 +1,10 @@
 {
+	"customTemplates": [
+		{
+			"name": "patterns",
+			"title": "Patterns"
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -788,15 +794,15 @@
 							}
 						},
 						"color": {
-							"background": "var(--wp--preset--color--100)",
-							"text": "var(--wp--preset--color--0)"
+							"background": "var(--wp--preset--color--0)",
+							"text": "var(--wp--preset--color--100)"
 						},
 						"spacing": {
 							"padding": {
-								"bottom": ".44em",
-								"left": "1em",
-								"right": "1em",
-								"top": ".44em"
+								"bottom": "1em",
+								"left": "1.33em",
+								"right": "1.33em",
+								"top": "1em"
 							}
 						}
 					}
@@ -958,12 +964,6 @@
 			"lineHeight": "1.5"
 		}
 	},
-	"customTemplates": [
-		{
-			"name": "patterns",
-			"title": "Patterns"
-		}
-	],
 	"templateParts": [
 		{
 			"area": "header",
