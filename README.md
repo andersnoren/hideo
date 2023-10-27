@@ -1,6 +1,6 @@
 # Hideo
 
-Hideo is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with 5 different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts.
+Hideo is a clean portfolio and blog theme with bold headings and subdued colors. It comes with 7 different theme styles and more than 20 block patterns.
 
 ![Hideo](https://github.com/andersnoren/hideo/blob/main/screenshot.png)
 
