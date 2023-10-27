@@ -27,6 +27,24 @@ add_action( 'wp_enqueue_scripts', 'hideo_styles' );
 if ( ! function_exists( 'hideo_block_styles' ) ) :
 	function hideo_block_styles() {
 
+		/* REGISTER STYLES FOR BLOCKS */
+
+		$core_block_styles = apply_filters( 'hideo_wp_enqueue_block_style_blocks', array( 'categories', 'comments', 'navigation', 'post-comments-form', 'pullquote', 'search' ) );
+
+		foreach( $core_block_styles as $block_name ) {
+			wp_enqueue_block_style(
+				'core/' . $block_name,
+				array(
+					'handle' => 'hideo-' . $block_name . '-style',
+					'src'    => get_theme_file_uri( 'assets/css/' . $block_name . '.css' ),
+					'ver'    => wp_get_theme( 'hideo' )->get( 'Version' ),
+					'path'   => get_theme_file_path( 'assets/css/' . $block_name . '.css' ),
+				)
+			);
+		}
+
+		/* REGISTER BLOCK STYLES */
+
 		$desatured_style_blocks = array( 
 			'core/avatar', 
 			'core/image',
@@ -39,7 +57,7 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 				array(
 					'name'         => 'desaturated',
 					'label'        => __( 'Desaturated', 'hideo' ),
-					'inline_style' => "",
+					'inline_style' => ".is-style-desaturated { mix-blend-mode: luminosity; }",
 				)
 			);
 		}
@@ -92,6 +110,43 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 				'inline_style' => "
 				.wp-block-post-date.is-style-pill-shape {
 					border-radius: 99px;
+				}",
+			)
+		);
+
+		register_block_style(
+			'core/query-pagination',
+			array(
+				'name'         => 'hideo-pagination',
+				'label'        => __( 'Hideo Pagination', 'hideo' ),
+				'inline_style' => "
+				:root .is-style-hideo-pagination > *,
+				.is-style-hideo-pagination [class*=\"is-arrow-\"]:only-child {
+					margin: 0;
+				}
+
+				.wp-block-query-pagination,
+				.is-style-hideo-pagination .wp-block-query-pagination-numbers {
+					display: flex;
+					flex-wrap: wrap;
+					gap: .66em;
+				}
+
+				.is-style-hideo-pagination > a,
+				.is-style-hideo-pagination .wp-block-query-pagination-numbers > * { 
+					align-items: center;
+					border: 1px solid var( --wp--preset--color--30 );
+					border-radius: 50%;
+					display: flex;
+					height: 2em;
+					justify-content: center;
+					margin: 0;
+					width: 2em;
+				}
+
+				.is-style-hideo-pagination a:hover,
+				.is-style-hideo-pagination .wp-block-query-pagination-numbers .current {
+					background: var( --wp--preset--color--30 );
 				}",
 			)
 		);

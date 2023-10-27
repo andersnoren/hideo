@@ -26,7 +26,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"fontSize":"heading-5"} -->
-					<h2 class="wp-block-heading has-heading-5-font-size">Anders Norén</h2>
+					<h2 class="wp-block-heading has-heading-5-font-size">Hideo Kojima</h2>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:group -->
@@ -34,8 +34,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"30em"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
-					<p class="has-medium-font-size">Designer and developer, creator of free WordPress themes, hiker in
-						the spring/summer/fall. My body is 60% coffee.</p>
+					<p class="has-medium-font-size">Hideo is a illustrator and art director based in New York City. He works in a diverse range of mediums for commercial and editorial clients, all with a clean and elegant aesthetic.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -69,7 +68,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"fontSize":"heading-5"} -->
-					<h2 class="wp-block-heading has-heading-5-font-size">Anders Norén</h2>
+					<h2 class="wp-block-heading has-heading-5-font-size">Hideo Kojima</h2>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:group -->
@@ -77,8 +76,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"30em"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
-					<p class="has-medium-font-size">Designer and developer, creator of free WordPress themes, hiker in
-						the spring/summer/fall. My body is 60% coffee.</p>
+					<p class="has-medium-font-size">Hideo is a illustrator and art director based in New York City. He works in a diverse range of mediums for commercial and editorial clients, all with a clean and elegant aesthetic.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -112,7 +110,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"fontSize":"heading-5"} -->
-					<h2 class="wp-block-heading has-heading-5-font-size">Anders Norén</h2>
+					<h2 class="wp-block-heading has-heading-5-font-size">Hideo Kojima</h2>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:group -->
@@ -120,8 +118,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"30em"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
-					<p class="has-medium-font-size">Designer and developer, creator of free WordPress themes, hiker in
-						the spring/summer/fall. My body is 60% coffee.</p>
+					<p class="has-medium-font-size">Hideo is a illustrator and art director based in New York City. He works in a diverse range of mediums for commercial and editorial clients, all with a clean and elegant aesthetic.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -159,7 +156,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"fontSize":"heading-5"} -->
-					<h2 class="wp-block-heading has-heading-5-font-size">Anders Norén</h2>
+					<h2 class="wp-block-heading has-heading-5-font-size">Hideo Kojima</h2>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:group -->
@@ -167,8 +164,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"30em"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
-					<p class="has-medium-font-size">Designer and developer, creator of free WordPress themes, hiker in
-						the spring/summer/fall. My body is 60% coffee.</p>
+					<p class="has-medium-font-size">Hideo is a illustrator and art director based in New York City. He works in a diverse range of mediums for commercial and editorial clients, all with a clean and elegant aesthetic.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -202,7 +198,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"fontSize":"heading-5"} -->
-					<h2 class="wp-block-heading has-heading-5-font-size">Anders Norén</h2>
+					<h2 class="wp-block-heading has-heading-5-font-size">Hideo Kojima</h2>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:group -->
@@ -210,8 +206,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"30em"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
-					<p class="has-medium-font-size">Designer and developer, creator of free WordPress themes, hiker in
-						the spring/summer/fall. My body is 60% coffee.</p>
+					<p class="has-medium-font-size">Hideo is a illustrator and art director based in New York City. He works in a diverse range of mediums for commercial and editorial clients, all with a clean and elegant aesthetic.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -245,7 +240,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:heading {"fontSize":"heading-5"} -->
-					<h2 class="wp-block-heading has-heading-5-font-size">Anders Norén</h2>
+					<h2 class="wp-block-heading has-heading-5-font-size">Hideo Kojima</h2>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:group -->
@@ -253,8 +248,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"30em"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
-					<p class="has-medium-font-size">Designer and developer, creator of free WordPress themes, hiker in
-						the spring/summer/fall. My body is 60% coffee.</p>
+					<p class="has-medium-font-size">Hideo is a illustrator and art director based in New York City. He works in a diverse range of mediums for commercial and editorial clients, all with a clean and elegant aesthetic.</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->

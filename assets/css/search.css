@@ -1,0 +1,31 @@
+.search-results-form-group-wrapper {
+	overflow: hidden;
+}
+
+.wp-block-search__input {
+	line-height: 1;
+	padding: 1em 1.33em;
+	width: 100%;
+}
+
+.wp-block-search__button svg {
+	min-height: 1.5em;
+	min-width: 1.5em;
+}
+
+/* Style: Button Inside */
+
+.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+	padding: 0;
+}
+
+.wp-block-search__button-inside .wp-block-search__input {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+.wp-block-search__button-inside .wp-block-search__button {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	margin: 0;
+}

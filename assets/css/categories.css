@@ -1,0 +1,25 @@
+.wp-block-categories,
+.wp-block-categories ul {
+	list-style-type: none;
+}
+
+.wp-block-categories ul {
+	margin-top: .5em;
+	padding-left: 1.5em;
+}
+
+.wp-block-categories li {
+	margin-bottom: .5em;
+}
+
+.wp-block-categories .current-cat > a {
+	text-decoration: underline;
+}
+
+.wp-block-categories .count {
+	font-size: .66em;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+	margin-left: .2em;
+	vertical-align: super;
+}

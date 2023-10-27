@@ -1,0 +1,55 @@
+.comment-respond {
+	border-radius: var(--wp--custom--border--radius--large);
+}
+
+.comment-respond .comment-reply-title {
+	margin: 0 0 var(--wp--preset--spacing--60);
+}
+
+.comment-notes {
+	display: none;
+}
+
+.wp-block-post-comments-form input:not([type=submit]):not([type=checkbox]), 
+.wp-block-post-comments-form textarea {
+	background-color: var(--wp--preset--color--0);
+	border: none;
+	border-radius: var(--wp--custom--border--radius--tiny);
+	font: inherit;
+	font-size: var(--wp--preset--font-size--small);
+	padding: var(--wp--custom--input--padding);
+}
+
+.comment-form-comment label {
+	display: block;
+	margin: 0 0 .25em;
+}
+
+.comment-form > .form-submit {
+	margin-bottom: 0;
+}
+
+@media ( min-width: 1200px ) {
+
+	.comment-form-comment {
+		float: left;
+		margin-right: var(--wp--preset--spacing--body-margin);
+		width: calc(66.66% - ( var(--wp--preset--spacing--body-margin) / 2))
+	}
+
+	.comment-form-comment textarea {
+		height: 15.9em;
+	}
+
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+		float: left;
+		width: calc(33.33% - (var(--wp--preset--spacing--body-margin) / 2))
+	}
+
+	.comment-form > *:not(.comment-form-comment):not(.comment-form-author):not(.comment-form-email):not(.comment-form-url) {
+		clear: both;
+	}
+
+}

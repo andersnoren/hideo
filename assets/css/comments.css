@@ -1,0 +1,9 @@
+.wp-block-comments {
+	display: flex; 
+	flex-direction: column; 
+	gap: var(--wp--preset--spacing--60); 
+}
+
+.comment-form > * {
+	margin: 0 0 var(--wp--preset--spacing--40);
+}

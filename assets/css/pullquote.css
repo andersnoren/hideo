@@ -1,0 +1,18 @@
+.wp-block-pullquote.has-background-color { 
+	padding: var(--wp--preset--spacing--50) 
+}
+
+.wp-block-pullquote blockquote { 
+	margin: 0; 
+}
+
+:root .wp-block-pullquote blockquote:before { 
+	margin-bottom: var(--wp--preset--spacing--40)
+}
+
+.wp-block-pullquote p:first-of-type { margin-top: 0; }
+.wp-block-pullquote p:last-of-type { margin-bottom: 0 }
+
+.wp-block-pullquote cite {
+	display: block;
+}
