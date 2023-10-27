@@ -958,6 +958,12 @@
 			"lineHeight": "1.5"
 		}
 	},
+	"customTemplates": [
+		{
+			"name": "patterns",
+			"title": "Patterns"
+		}
+	],
 	"templateParts": [
 		{
 			"area": "header",

@@ -137,17 +137,11 @@ if ( ! function_exists( 'hideo_register_block_patterns' ) ) :
 			'hideo'  => array(
 				'label'			=> esc_html__( 'Hideo - All', 'hideo' ),
 			),
-			'hideo-blog'  => array(
-				'label'			=> esc_html__( 'Hideo - Blog', 'hideo' ),
-			),
 			'hideo-cta'  => array(
 				'label'			=> esc_html__( 'Hideo - Call to Action', 'hideo' ),
 			),
 			'hideo-general' => array(
 				'label'			=> esc_html__( 'Hideo - General', 'hideo' ),
-			),
-			'hideo-hero' => array(
-				'label'			=> esc_html__( 'Hideo - Hero', 'hideo' ),
 			),
 			'hideo-media' => array(
 				'label'			=> esc_html__( 'Hideo - Media', 'hideo' ),
