@@ -1,10 +1,4 @@
 {
-	"customTemplates": [
-		{
-			"name": "patterns",
-			"title": "Patterns"
-		}
-	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -640,13 +634,9 @@
 				}
 			},
 			"core/post-navigation-link": {
+				"css": ".wp-block-post-navigation-link a:hover .post-navigation-link__title { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.15em; }",
 				"elements": {
 					"link": {
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						},
 						"typography": {
 							"textDecoration": "none"
 						}
