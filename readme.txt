@@ -58,5 +58,9 @@ Source: https://wordpress.org/photos/photo/654642d52f/
 
 == Changelog ==
 
-Version 1.0.0 (2023-XX-XX)
+Version 1.0.1 (2023-11-05)
+-------------------------
+- Removed the all.php block pattern.
+
+Version 1.0.0 (2023-10-27)
 -------------------------
