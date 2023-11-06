@@ -1,0 +1,4 @@
+.wp-block-group.hide-empty:has( .wp-block-group.hide-empty > .wp-block-post-navigation-link:only-child:empty )
+.wp-block-group.hide-empty:has( > .wp-block-post-navigation-link:only-child:empty ) {
+	display: none !important;
+}

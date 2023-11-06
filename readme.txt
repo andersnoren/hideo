@@ -58,6 +58,10 @@ Source: https://wordpress.org/photos/photo/654642d52f/
 
 == Changelog ==
 
+Version 1.0.3 (2023-11-06)
+-------------------------
+- Post navigation link: Fixed the wrapping group being shown when the post navigation link is empty.
+
 Version 1.0.2 (2023-11-06)
 -------------------------
 - Updated 404 search form, reduced overall search styles.

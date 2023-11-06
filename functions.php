@@ -29,7 +29,7 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 
 		/* REGISTER STYLES FOR BLOCKS */
 
-		$core_block_styles = apply_filters( 'hideo_wp_enqueue_block_style_blocks', array( 'categories', 'comments', 'navigation', 'post-comments-form', 'pullquote', 'search' ) );
+		$core_block_styles = apply_filters( 'hideo_wp_enqueue_block_style_blocks', array( 'categories', 'comments', 'navigation', 'post-comments-form', 'post-navigation-link', 'pullquote', 'search' ) );
 
 		foreach( $core_block_styles as $block_name ) {
 			wp_enqueue_block_style(
