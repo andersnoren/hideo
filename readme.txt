@@ -58,6 +58,12 @@ Source: https://wordpress.org/photos/photo/654642d52f/
 
 == Changelog ==
 
+Version 1.0.4 (2023-11-06)
+-------------------------
+- New pattern: hero-cover.php.
+- Updated the theme description to account for the added pattern.
+- Set the default gallery gap to match the Hideo body margin.
+
 Version 1.0.3 (2023-11-06)
 -------------------------
 - Post navigation link: Fixed the wrapping group being shown when the post navigation link is empty.

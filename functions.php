@@ -29,7 +29,16 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 
 		/* REGISTER STYLES FOR BLOCKS */
 
-		$core_block_styles = apply_filters( 'hideo_wp_enqueue_block_style_blocks', array( 'categories', 'comments', 'navigation', 'post-comments-form', 'post-navigation-link', 'pullquote', 'search' ) );
+		$core_block_styles = apply_filters( 'hideo_wp_enqueue_block_style_blocks', array( 
+			'categories', 
+			'comments', 
+			'gallery', 
+			'navigation', 
+			'post-comments-form', 
+			'post-navigation-link', 
+			'pullquote', 
+			'search' 
+		) );
 
 		foreach( $core_block_styles as $block_name ) {
 			wp_enqueue_block_style(
@@ -197,6 +206,9 @@ if ( ! function_exists( 'hideo_register_block_patterns' ) ) :
 			),
 			'hideo-general' => array(
 				'label'			=> esc_html__( 'Hideo - General', 'hideo' ),
+			),
+			'hideo-hero' => array(
+				'label'			=> esc_html__( 'Hideo - Hero', 'hideo' ),
 			),
 			'hideo-media' => array(
 				'label'			=> esc_html__( 'Hideo - Media', 'hideo' ),
