@@ -31,7 +31,7 @@
 
 @media ( min-width: 1200px ) {
 
-	.comment-form-comment {
+	:root .comment-form-comment {
 		float: left;
 		margin-right: var(--wp--preset--spacing--body-margin);
 		width: calc(66.66% - ( var(--wp--preset--spacing--body-margin) / 2))

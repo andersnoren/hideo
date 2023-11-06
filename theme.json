@@ -797,16 +797,12 @@
 								"ref": "styles.elements.button.border.radius"
 							}
 						},
-						"color": {
-							"background": "var(--wp--preset--color--0)",
-							"text": "var(--wp--preset--color--100)"
-						},
 						"spacing": {
 							"padding": {
-								"bottom": "1em",
-								"left": "1.33em",
-								"right": "1.33em",
-								"top": "1em"
+								"bottom": ".65em",
+								"left": ".9em",
+								"right": ".9em",
+								"top": ".65em"
 							}
 						}
 					}
