@@ -19,6 +19,18 @@ function hideo_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'hideo_styles' );
 
+/* -----------------------------------------------------------------------------------------------
+   ENQUEUE CUSTOM SCRIPTS
+--------------------------------------------------------------------------------------------------- */
+
+function enqueue_custom_scripts() {
+    wp_register_script('custom-scripts', get_template_directory_uri() . '/custom.js', array('jquery'), null, true);
+    wp_enqueue_script('custom-scripts');
+}
+
+// Hook into the wp_enqueue_scripts action
+add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
+
 
 /*	-----------------------------------------------------------------------------------------------
 	REGISTER BLOCK STYLES
