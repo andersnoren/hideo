@@ -15,7 +15,7 @@ add_action( 'after_setup_theme', 'hideo_setup' );
 --------------------------------------------------------------------------------------------------- */
 
 function hideo_styles() {
-	wp_enqueue_style( 'hideo-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'hideo' )->get( 'Version' ) );
+	wp_enqueue_style( 'hideo-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'hideo' )->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'hideo_styles' );
 
@@ -45,9 +45,9 @@ if ( ! function_exists( 'hideo_block_styles' ) ) :
 				'core/' . $block_name,
 				array(
 					'handle' => 'hideo-' . $block_name . '-style',
-					'src'    => get_theme_file_uri( 'assets/css/' . $block_name . '.css' ),
+					'src'    => get_template_directory_uri() . '/assets/css/' . $block_name . '.css',
 					'ver'    => wp_get_theme( 'hideo' )->get( 'Version' ),
-					'path'   => get_theme_file_path( 'assets/css/' . $block_name . '.css' ),
+					'path'   => get_template_directory() . '/assets/css/' . $block_name . '.css',
 				)
 			);
 		}
